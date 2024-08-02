@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfTutorial.QueryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="History" Height="300" Width="400">
+    <Grid>
+        <ListBox Name="ExpressionsListBox" />
+        <Button Margin="326,220,10,10" Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" />
+    </Grid>
+</Window>
